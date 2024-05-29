@@ -1,0 +1,1398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* <!-- Starting of header nav  --> */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 90px;
+    justify-content: space-between;
+    z-index: 2;
+    box-shadow: -1px -1px 25px 1px rgb(211, 211, 211);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav {
+    gap: 50px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav li {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.form button {
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 12px;
+    color: white;
+    background-color: #0000ff;
+    padding: 20px 35px;
+    /* margin-bottom: 50px; */
+    border: #0000ff;
+    border-radius: 7px 7px 7px 0px;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.nav a:link {
+    text-decoration: none;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover {
+    color: #00bbee;
+}
+
+.nav a {
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 5px;
+    color: black;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+/* <!-- Closing of header nav  --> */
+
+
+
+/* <!-- Starting of heading  --> */
+.heading1 {
+    height: .5vh;
+    text-align: center;
+    font-size: 5.5vh;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 160px 150px;
+    background-color: white;
+}
+
+/* <!-- Closing of heading  --> */
+
+
+
+/* <!-- Startng Of Digital marketing Page  --> */
+.page2 {
+    height: 85vh;
+    background-color: #f2f5fa;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 130px;
+}
+
+.heading {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 0.5;
+    line-height: 1.3;
+    margin-top: 40px;
+    height: 80vh;
+    width: 80vh;
+}
+
+.another {
+    padding-top: 45px;
+}
+
+/* <!-- Closing Of Digital marketing Page  --> */
+
+
+
+/* make a div with images hover and open new links */
+.container5 {
+    height: 40vh;
+    padding: 90px 20px 0px 130px;
+    background-color: #f2f5fa;
+}
+
+.container5 img {
+    opacity: .5;
+    width: 20vh;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+}
+
+.container5 a {}
+
+.container5 img:hover {
+    transition: .3s;
+    opacity: 1.0;
+}
+
+/* <!-- Closing Of links With image With Div  -->*/
+
+
+
+/* <!-- Starting of faq and youtube video  --> */
+.div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 .left {
+    height: 60vh;
+    width: 1250px;
+    border-radius: 7px;
+    background-color: #2F5AA8;
+    z-index: 1;
+}
+
+.div3 .left h2 {
+    text-transform: uppercase;
+    color: #00fcff;
+    font-weight: ;
+    font-size: 5.9vh;
+    margin: 100px 0px 0px 100px;
+    border: 1px solid #2F5AA8;
+    border-radius: 5px;
+}
+
+.details {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 15px 50px;
+    margin: 15px 60px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Faq-txt {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 15px 50px;
+    margin: 15px 60px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Para {
+    font-size : 12 px;
+    font-weight : lighter;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.left {
+    background-color: black;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+
+.details a:link {
+    text-decoration: none;
+}
+
+.details a {
+    color: black
+}
+
+.details a:hover {
+    color: #00bbee;
+}
+
+.right {
+    margin-right: 35px;
+    position: relative;
+    bottom: 120px;
+}
+
+/* <!-- Closing of faq and youtube video  --> */
+
+
+
+/* <!-- Starting of second heading  --> */
+h1 {
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 25px;
+}
+
+/* <!-- Closing of second heading  --> */
+
+
+
+/* <!-- Starting of best digital marketing and image  --> */
+.thirdpage {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 130px;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8vh;
+    font-weight: 200;
+    line-height: 1.5;
+    height: 68vh;
+    width: 32vw;
+}
+
+.appdevimg {
+    margin-top: 50px;
+}
+
+/* <!-- Closing of best digital marketing and image  --> */
+
+
+
+/* <!-- Starting of number counter  --> */
+.counternumber {
+    box-shadow: 0px 0px 25px 0px rgb(249, 245, 245);
+}
+
+.counternumber {
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 170px;
+    text-align: center;
+    margin: auto;
+    font-size: 9vh;
+    width: 80vw;
+}
+
+.numbers {
+    font-size: 9.5vh;
+}
+
+.Define {
+    background-color: white;
+    position: relative;
+    top: -40px;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 3vh;
+}
+
+.numbers {
+    text-shadow: 0px 0px 3.8px #023386;
+    color: white;
+    font-size: 16vh;
+}
+
+.grid {
+    width: 140vh;
+    margin: auto;
+}
+
+/* <!-- Closing of number counter  --> */
+
+
+
+/* <!-- Starting of our blogs  --> */
+.blog {
+    height: 7vh;
+    margin-bottom: 20px;
+    border-bottom: thick double rgb(239, 244, 237);
+    width: 65vw;
+    margin: auto;
+}
+
+.forth {
+    height: 20vh;
+}
+
+.title {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 3vh;
+}
+
+.circle {
+    position: relative;
+    left: 163px;
+    bottom: 27px;
+    height: 8px;
+    width: 8px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+}
+
+/* <!-- Closing of our blogs  --> */
+
+
+
+/* <!-- Starting of Grid Used --> */
+.grid-boxes {
+    height: 163vh;
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 70px;
+    margin: 160px;
+    margin-top: 70px;
+    /* margin-bottom: 20px; */
+    transition: .5s;
+}
+
+.image img {
+    width: 130%;
+}
+
+.card {
+    width: 110%;
+    height: 345px;
+    /* box-shadow: 5px 5px 20px black; */
+    overflow: hidden;
+}
+
+.Basic-details h1 {
+    height: 12vh;
+    width: 26vw;
+    padding: 9px 0px 0px 10px;
+    font-size: 3.4vh;
+    text-align: left;
+    /* background-color: #00bbee; */
+}
+
+.Basic-details p {
+    line-height: 1.4;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    height: 25vh;
+    width: 25vw;
+    padding: 9px 3px 0px 10px;
+    /* background-color: #0d6efd; */
+}
+
+.Basic-details a button {
+    /* background-color: #00fcff; */
+    margin: 9px 0px 0px 15px;
+    opacity: 0;
+    padding: 10px 15px;
+    /* transition: .5s; */
+    visibility: hidden;
+}
+
+.Basic-details {
+    justify-content: center;
+    color: white;
+    margin: 7px 7px 7px 7px;
+    opacity: .8;
+    box-sizing: border-box;
+    width: 100%;
+    background: rgb(5, 1, 1);
+    position: relative;
+    bottom: 410px;
+    right: 7px;
+    height: 110px;
+    transition: .5s;
+}
+
+.very-big-details {
+    height: 40vh;
+}
+
+.big-details {
+    height: 30vh;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .Basic-details {
+    transition: .6s ease-in-out;
+    height: 350px;
+    /* top: 50px; */
+    /* bottom: 210px; */
+    background: rgba(27, 27, 27, .7);
+
+}
+
+.card:hover p {
+    /* transform:translateX(.5); */
+    transition: .5s ease-in-out;
+    bottom: 200px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover button {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    visibility: visible;
+    transition: 1.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+    transition: .6s ease-in-out;
+}
+
+.Basic-details button:hover {
+    transition: .5s ease-in-out;
+    opacity: 1;
+    transform: scale(1.1);
+    color: rgba(1, 134, 134, 0.961);
+    border: 1px solid rgba(1, 134, 134, 0.961);
+}
+
+
+@media (min-width: 300px) and (max-width: 765px) {
+    .container {
+        padding: 20px;
+    }
+}
+/*
+@media (min-width: 766px) and (max-width: 1024px) {
+    .container {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .container {
+        padding: 40px;
+    }
+}3*/
+/* <!-- Closing of Grid Used --> */
+
+
+
+/* <!-- Starting of main footter  --> */
+.mian-footer {
+    /* margin: 0px 90px; */
+    height: 68vh;
+    background-color: #eaf1f1de;
+    border-bottom: 1.5px solid #00bbee;
+}
+
+.footter {
+    padding-top: 15px;
+    gap: 20px;
+    margin: 70px 120px;
+    display: flex;
+}
+
+.kreativan-img {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2.170em;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    height: 55vh;
+    width: 50vh;
+    /* background-color: #00bbee; */
+}
+
+.our-services {
+    height: 55vh;
+    width: 50vh;
+    padding: 0px 0px;
+    /* background-color: #00bbee; */
+}
+
+.our-services h3 {
+    padding: 5px 15px;
+}
+
+.our-services p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    padding: 17px 10px;
+}
+
+.our-services a{
+    text-decoration: none;
+    color:#00bbee
+}
+.our-services a:hover{
+    text-decoration: none;
+    color:black;
+    transition: .4s;
+}
+
+
+.contact-us {
+    height: 55vh;
+    width: 50vh;
+    /* background-color: #00bbee; */
+}
+
+.contact-us h3 {
+    padding: 5px 10px;
+}
+
+.contact-us p {
+    line-height: 1.9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color:#00bbee
+}
+.contact-us a:hover{
+    text-decoration: none;
+    color:black;
+    transition: .4s;
+}
+
+.our-company {
+    height: 55vh;
+    width: 50vh;
+    /* background-color: #00bbee; */
+}
+
+.our-company h3 {
+    padding: 5px 10px;
+}
+
+.our-company p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.our-company a{
+    text-decoration: none;
+    color: #00bbee;
+}
+.our-company a:hover{
+    text-decoration: none;
+    color:black;
+    transition: .4s;
+}
+
+/* <!-- Closing of main footter  --> */
+
+
+
+/* <!-- Starting of down footter  --> */
+.down-foottter {
+    
+}
+
+.down-foottter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #eaf1f1de;
+    padding: 0px 170px 0px 170px;
+    font-size: 2vh;
+}
+
+.div2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.9vh;
+    border-right: 2px solid rgba(29, 29, 29, 0.6);
+    padding-right: 7px;
+}
+
+/* <!-- Closing of down footter  --> */
+
+
+@media (max-width: 1600px) {
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav {
+        gap: 50px;
+        color: black;
+        text-transform: uppercase;
+    }
+    
+    .nav li {
+        font-size: 13px;
+        font-weight: 600;
+    
+    }
+    
+    .form button {
+        text-transform: uppercase;
+        font-weight: 550;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 12px;
+        color: white;
+        background-color: #0000ff;
+        padding: 20px 35px;
+        /* margin-bottom: 50px; */
+        border: #0000ff;
+        border-radius: 7px 7px 7px 0px;
+    }
+    
+    .form button:hover {
+        cursor: pointer;
+    }
+    
+    .nav a:link {
+        text-decoration: none;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+    }
+    
+    .nav a:hover {
+        color: #00bbee;
+    }
+    
+    .nav a {
+        font-family: "Nunito Sans", sans-serif;
+        padding-left: 5px;
+        color: black;
+    }
+    
+    .logo:hover {
+        cursor: pointer;
+    }
+    
+    /* <!-- Closing of header nav  --> */
+    
+    
+    
+    /* <!-- Starting of heading  --> */
+    .heading1 {
+        height: .5vh;
+        text-align: center;
+        font-size: 5.5vh;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 160px 150px;
+        background-color: white;
+    }
+    
+    /* <!-- Closing of heading  --> */
+    
+    
+    
+    /* <!-- Startng Of Digital marketing Page  --> */
+    .page2 {
+        height: 85vh;
+        background-color: #f2f5fa;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 130px;
+    }
+    
+    .heading {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 0.5;
+        line-height: 1.3;
+        margin-top: 40px;
+        height: 80vh;
+        width: 80vh;
+    }
+    
+    .another {
+        padding-top: 45px;
+    }
+    
+    /* <!-- Closing Of Digital marketing Page  --> */
+    
+    
+    
+    /* make a div with images hover and open new links */
+    .container5 {
+        height: 40vh;
+        padding: 90px 20px 0px 130px;
+        background-color: #f2f5fa;
+    }
+    
+    .container5 img {
+        opacity: .5;
+        width: 20vh;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .container5 a {}
+    
+    .container5 img:hover {
+        transition: .3s;
+        opacity: 1.0;
+    }
+    
+
+
+    @media (max-width: 1600px) {
+        ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        .nav {
+            gap: 50px;
+            color: black;
+            text-transform: uppercase;
+        }
+        
+        .nav li {
+            font-size: 13px;
+            font-weight: 600;
+        
+        }
+        
+        .form button {
+            text-transform: uppercase;
+            font-weight: 550;
+            font-family: Arial, Helvetica, sans-serif;
+            font: 12px;
+            color: white;
+            background-color: #0000ff;
+            padding: 20px 35px;
+            /* margin-bottom: 50px; */
+            border: #0000ff;
+            border-radius: 7px 7px 7px 0px;
+        }
+        
+        .form button:hover {
+            cursor: pointer;
+        }
+        
+        .nav a:link {
+            text-decoration: none;
+            font-family: Inter, Arial, Helvetica, sans-serif;
+        }
+        
+        .nav a:hover {
+            color: #00bbee;
+        }
+        
+        .nav a {
+            font-family: "Nunito Sans", sans-serif;
+            padding-left: 5px;
+            color: black;
+        }
+        
+        .logo:hover {
+            cursor: pointer;
+        }
+        
+        /* <!-- Closing of header nav  --> */
+        
+        
+        
+        /* <!-- Starting of heading  --> */
+        .heading1 {
+            height: .5vh;
+            text-align: center;
+            font-size: 5.5vh;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 160px 150px;
+            background-color: white;
+        }
+        
+        /* <!-- Closing of heading  --> */
+        
+        
+        
+        /* <!-- Startng Of Digital marketing Page  --> */
+        .page2 {
+            height: 85vh;
+            background-color: #f2f5fa;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            padding-top: 130px;
+        }
+        
+        .heading {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 22px;
+            font-weight: 0.5;
+            line-height: 1.3;
+            margin-top: 40px;
+            height: 80vh;
+            width: 80vh;
+        }
+        
+        .another {
+            padding-top: 45px;
+        }
+        
+        /* <!-- Closing Of Digital marketing Page  --> */
+        
+        
+        
+        /* make a div with images hover and open new links */
+        .container5 {
+            height: 40vh;
+            padding: 90px 20px 0px 130px;
+            background-color: #f2f5fa;
+        }
+        
+        .container5 img {
+            opacity: .5;
+            width: 20vh;
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            padding: 12px;
+        }
+        
+        .container5 a {}
+        
+        .container5 img:hover {
+            transition: .3s;
+            opacity: 1.0;
+        }
+    
+        
+        
+@media (max-width: 1200px) {
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav {
+        gap: 50px;
+        color: black;
+        text-transform: uppercase;
+    }
+    
+    .nav li {
+        font-size: 13px;
+        font-weight: 600;
+    
+    }
+    
+    .form button {
+        text-transform: uppercase;
+        font-weight: 550;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 12px;
+        color: white;
+        background-color: #0000ff;
+        padding: 20px 35px;
+        /* margin-bottom: 50px; */
+        border: #0000ff;
+        border-radius: 7px 7px 7px 0px;
+    }
+    
+    .form button:hover {
+        cursor: pointer;
+    }
+    
+    .nav a:link {
+        text-decoration: none;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+    }
+    
+    .nav a:hover {
+        color: #00bbee;
+    }
+    
+    .nav a {
+        font-family: "Nunito Sans", sans-serif;
+        padding-left: 5px;
+        color: black;
+    }
+    
+    .logo:hover {
+        cursor: pointer;
+    }
+    
+    /* <!-- Closing of header nav  --> */
+    
+    
+    
+    /* <!-- Starting of heading  --> */
+    .heading1 {
+        height: .5vh;
+        text-align: center;
+        font-size: 5.5vh;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 160px 150px;
+        background-color: white;
+    }
+    
+    /* <!-- Closing of heading  --> */
+    
+    
+    
+    /* <!-- Startng Of Digital marketing Page  --> */
+    .page2 {
+        height: 85vh;
+        background-color: #f2f5fa;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 130px;
+    }
+    
+    .heading {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 0.5;
+        line-height: 1.3;
+        margin-top: 40px;
+        height: 80vh;
+        width: 80vh;
+    }
+    
+    .another {
+        padding-top: 45px;
+    }
+    
+    /* <!-- Closing Of Digital marketing Page  --> */
+    
+    
+    
+    /* make a div with images hover and open new links */
+    .container5 {
+        height: 40vh;
+        padding: 90px 20px 0px 130px;
+        background-color: #f2f5fa;
+    }
+    
+    .container5 img {
+        opacity: .5;
+        width: 20vh;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .container5 a {}
+    
+    .container5 img:hover {
+        transition: .3s;
+        opacity: 1.0;
+    }
+    
+
+    
+@media (max-width: 800px) {
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav {
+        gap: 50px;
+        color: black;
+        text-transform: uppercase;
+    }
+    
+    .nav li {
+        font-size: 13px;
+        font-weight: 600;
+    
+    }
+    
+    .form button {
+        text-transform: uppercase;
+        font-weight: 550;
+        font-family: Arial, Helvetica, sans-serif;
+        font: 12px;
+        color: white;
+        background-color: #0000ff;
+        padding: 20px 35px;
+        /* margin-bottom: 50px; */
+        border: #0000ff;
+        border-radius: 7px 7px 7px 0px;
+    }
+    
+    .form button:hover {
+        cursor: pointer;
+    }
+    
+    .nav a:link {
+        text-decoration: none;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+    }
+    
+    .nav a:hover {
+        color: #00bbee;
+    }
+    
+    .nav a {
+        font-family: "Nunito Sans", sans-serif;
+        padding-left: 5px;
+        color: black;
+    }
+    
+    .logo:hover {
+        cursor: pointer;
+    }
+    
+    /* <!-- Closing of header nav  --> */
+    
+    
+    
+    /* <!-- Starting of heading  --> */
+    .heading1 {
+        height: .5vh;
+        text-align: center;
+        font-size: 5.5vh;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 160px 150px;
+        background-color: white;
+    }
+    
+    /* <!-- Closing of heading  --> */
+    
+    
+    
+    /* <!-- Startng Of Digital marketing Page  --> */
+    .page2 {
+        height: 85vh;
+        background-color: #f2f5fa;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 130px;
+    }
+    
+    .heading {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 0.5;
+        line-height: 1.3;
+        margin-top: 40px;
+        height: 80vh;
+        width: 80vh;
+    }
+    
+    .another {
+        padding-top: 45px;
+    }
+    
+    /* <!-- Closing Of Digital marketing Page  --> */
+    
+    
+    
+    /* make a div with images hover and open new links */
+    .container5 {
+        height: 40vh;
+        padding: 90px 20px 0px 130px;
+        background-color: #f2f5fa;
+    }
+    
+    .container5 img {
+        opacity: .5;
+        width: 20vh;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .container5 a {}
+    
+    .container5 img:hover {
+        transition: .3s;
+        opacity: 1.0;
+    }
+    
+
+    .image-container2 img {
+        width: 355px;
+        height: 250px;
+        /* width: 80%; */
+        height: auto;
+        border-radius: 10px 10px 10px 65px;
+    }
+    
+    .text-container2 {
+        /* margin-left: 10px; */
+        width: 400px;
+        /* height: 400px; */
+        padding: 30px;
+        margin-right: 35px;
+        flex: 2;
+        display: flex;
+        flex-direction: column; /* Arrange paragraphs in a column */
+         justify-content: center; /* Center the text vertically */
+        align-items: center; /* Center the text vertically */
+    }
+}
+@media (max-width: 990px){
+    .first-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 50px; */
+    }
+    .image-container2 {
+        flex: 1;
+        margin-top: 50px;
+        /* margin-left: 60px; */
+    }
+    
+    .image-container2 img {
+        width: 80%;
+        height: auto;
+        /* width: 80%; */
+        /* height: auto; */
+        border-radius: 10px 10px 10px 65px;
+    }
+    
+    .text-container2 {
+        /* margin-left: 10px; */
+        width: 90%;
+        /* height: 400px; */
+        padding: 20px;
+        margin-right: 25px;
+        flex: 2;
+        
+    }
+    .text-container p{
+        font-size: 24px;
+    }
+}
+.stat-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.stats{
+    box-shadow: #333;
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    box-shadow: #efebeb;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    width: calc(100%/4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    line-height: 2;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.num{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.2px; 
+}
+.text{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+@media (max-width: 990px){
+    .first-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 50px; */
+    }
+    .image-container2 {
+        flex: 1;
+        margin-top: 50px;
+        /* margin-left: 60px; */
+    }
+    
+    .image-container2 img {
+        width: 80%;
+        height: auto;
+        /* width: 80%; */
+        /* height: auto; */
+        border-radius: 10px 10px 10px 65px;
+    }
+    
+    .text-container2 {
+        /* margin-left: 10px; */
+        width: 90%;
+        /* height: 400px; */
+        padding: 20px;
+        margin-right: 25px;
+        flex: 2;
+        
+    }
+    .text-container p{
+        font-size: 24px;
+    }
+}
+.stat-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.stats{
+    box-shadow: #333;
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    box-shadow: #efebeb;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    width: calc(100%/4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    line-height: 2;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.num{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.2px; 
+}
+.text{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+
+@media (max-width: 900px){
+    .first-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 50px; */
+    }
+    .image-container2 {
+        flex: 1;
+        margin-top: 50px;
+        /* margin-left: 60px; */
+    }
+    
+    .image-container2 img {
+        width: 80%;
+        height: auto;
+        /* width: 80%; */
+        /* height: auto; */
+        border-radius: 10px 10px 10px 65px;
+    }
+    
+    .text-container2 {
+        /* margin-left: 10px; */
+        width: 90%;
+        /* height: 400px; */
+        padding: 20px;
+        margin-right: 25px;
+        flex: 2;
+        
+    }
+    .text-container p{
+        font-size: 24px;
+    }
+}
+.stat-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.stats{
+    box-shadow: #333;
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    box-shadow: #efebeb;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    width: calc(100%/4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    line-height: 2;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.num{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.2px; 
+}
+.text{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 32px;
+}
